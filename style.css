@@ -1,0 +1,53 @@
+/**** Importation de la police Quicksand ****/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+/**** Style général de la page ****/
+
+.container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(226, 226, 226);
+    text-shadow: 1px 1px 4px #000000;
+    font-size: 2.4rem;
+}
+
+.one {
+    background-color: #ffd700;
+}
+
+.two {
+    background-color: #00fff2;
+}
+
+.three {
+    background-color: #ff0000;
+}
+
+.four {
+    background-color: #8c00ff;
+}
