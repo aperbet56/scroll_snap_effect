@@ -6,7 +6,7 @@ Création de l'animation scroll snap effect en HTML5 et CSS3.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/scroll_snap_effect/
 
 ## Projet développé avec
 
